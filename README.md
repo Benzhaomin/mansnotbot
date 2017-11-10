@@ -2,9 +2,10 @@
 
 A tool to guess whether a username looks like a bot on Twitch.tv.
 
-Use machine learning / classification, train with usernames found in known good channels (ref [cancerino.info])
+Use machine learning / classification, train with usernames found in known good channels (https://cancerino.info)
 
-Disclaimer: this code is still a shell, nothing is implemented yet (see [TODO.md])
+Disclaimer: this code is still a shell, nothing is implemented yet (see [TODO.md](TODO.md))
+
 
 ## Install
 
