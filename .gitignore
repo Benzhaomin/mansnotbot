@@ -1,5 +1,6 @@
 _pycache__/
 *.py[cod]
-venv/
-mansnotbot.egg-info/
+.env
 .idea/
+.venv/
+mansnotbot.egg-info/

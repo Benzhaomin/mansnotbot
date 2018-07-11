@@ -9,18 +9,17 @@ Disclaimer: this code is still a shell, nothing is implemented yet (see [TODO.md
 
 ## Install
 
+Requires [pipenv](https://docs.pipenv.org/)
+
 ```
 git clone https://github.com/Benzhaomin/mansnotbot.git
 cd mansnotbot
-virtualenv3 venv
-source venv/bin/activate
-pip install -e .
+pipenv install
 ```
 
 ## Tests
 
 ```
-pip install -e .[dev]
-nosetests
-flake8 mansnotbot
+pipenv install --dev
+pipenv run quality && pipenv run tests && pipenv check
 ```

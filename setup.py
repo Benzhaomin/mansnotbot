@@ -18,7 +18,6 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
     ],
-
     packages=find_packages(exclude=("tests", "docs")),
     package_data={
         "mansnotbot": [],

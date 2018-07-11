@@ -1,6 +1,8 @@
 test:
   image: python:3.6
   script:
-    - pip install -e .[dev]
-    - nosetests
-    - flake8 mansnotbot
+    - pip install pipenv
+    - pipenv install --dev
+    - pipenv run quality
+    - pipenv run tests
+    - pipenv check
